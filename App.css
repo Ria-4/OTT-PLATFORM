@@ -1,0 +1,49 @@
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: inherit;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.theme-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.row_poster {
+  max-height: 200px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
