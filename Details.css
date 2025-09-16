@@ -1,0 +1,37 @@
+.details-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.details-banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.details-container h1 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.details-container p {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.details-container button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.details-container button:hover {
+  background: darkred;
+}

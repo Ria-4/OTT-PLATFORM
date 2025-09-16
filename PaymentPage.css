@@ -1,0 +1,96 @@
+/* ===== Payment Page Styling ===== */
+.payment-container {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.payment-title {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #e50914;
+}
+
+.payment-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #bbb;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.payment-methods button {
+  background: #222;
+  border: none;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.payment-methods button.active {
+  background: #e50914;
+}
+
+.payment-methods button:hover {
+  background: #f6121d;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #1f1f1f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 0.9rem;
+  margin: 0.7rem 0;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.payment-form input::placeholder {
+  color: #bbb;
+}
+
+.card-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.pay-btn {
+  width: 100%;
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  margin-top: 1.2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.pay-btn:hover {
+  background: #f6121d;
+  transform: scale(1.05);
+}
