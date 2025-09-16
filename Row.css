@@ -1,0 +1,36 @@
+.row {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.row h2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px;
+  gap: 10px;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none; /* hide scrollbar for a clean look */
+}
+
+.row_poster {
+  max-height: 200px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}

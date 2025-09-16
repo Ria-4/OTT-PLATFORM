@@ -1,0 +1,84 @@
+/* ===== Subscription Page Styling ===== */
+.subscription-container {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.sub-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #e50914; /* Netflix Red */
+}
+
+.sub-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #bbb;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  background: #1f1f1f;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.plan-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #fff;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #e50914;
+  margin-bottom: 1.2rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.8rem;
+}
+
+.plan-card ul li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #ddd;
+}
+
+.subscribe-btn {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  background: #f6121d;
+  transform: scale(1.05);
+}
